@@ -30,7 +30,7 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      /**yaw i pitch koordinate hotspota, kopiranje ta 4 reda sa zagradama doadje još hotspot */
+      /**yaw i pitch koordinate hotspota, kopiranje ta 4 reda sa zagradama doadje još */
       "linkHotspots": [
         {
           "yaw": 0.06712804815363071,
@@ -198,6 +198,38 @@ var APP_DATA = {
       "linkHotspots": [],
       "infoHotspots": []
     },
+    {
+      "id": "5-kupaonica",
+      "name": "Kupaonica",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+
     {
       "id": "11-garderoba",
       "name": "Garderoba",
