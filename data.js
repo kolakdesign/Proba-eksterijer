@@ -3,6 +3,8 @@ var APP_DATA = {
     {
       "id": "0-ulaz",
       "name": "Ulaz",
+     
+      
       "levels": [
         {
           "tileSize": 256,
@@ -28,10 +30,11 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
+      /**yaw i pitch koordinate hotspota, kopiranje ta 4 reda sa zagradama doadje još hotspot */
       "linkHotspots": [
         {
           "yaw": 0.06712804815363071,
-          "pitch": 0.035605954473554746,
+          "pitch": 0.045605954473554746,
           "rotation": 0,
           "target": "1-hodnik"
         }
@@ -194,7 +197,58 @@ var APP_DATA = {
       },
       "linkHotspots": [],
       "infoHotspots": []
-    }
+    },
+    {
+      "id": "11-garderoba",
+      "name": "Garderoba",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.8381020354038217,
+          "pitch": 0.13710229116947126,
+          "rotation": 0,
+          "target": "2-open-space"
+        },
+        {
+          "yaw": -1.5381020354038217,
+          "pitch": 0.13710229116947126,
+          "rotation": 0,
+          "target": "3-terasa"
+        },
+
+        {
+          "yaw": 1.1346057711215778,
+          "pitch": 0.08078244536117474,
+          "rotation": 0,
+          "target": "4-dvorite"
+        }
+      ],
+      "infoHotspots": []
+    },
   ],
   "name": "Proba Eksterijer",
   "settings": {
